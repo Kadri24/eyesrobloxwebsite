@@ -1,0 +1,53 @@
+.bodyback {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("images/backgroundeyesimage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 62, 62);
+  font-size: 60px;
+  font-family: 'Kanit';
+  width: 100%;
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+.button {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, 50%);
+  color: rgb(255, 62, 62);
+  font-family: 'Kanit';
+  color: #ffffff;
+  background-color: #ff3e3e;
+  border: #ff3e3e;
+  font-size: 18px;
+  padding: 15px 50px;
+}
+.button:hover {
+  color: #ffffff;
+  background-color: #6e0000;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
